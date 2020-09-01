@@ -1,4 +1,4 @@
-## creates a special "matrix" object that can cache its inverse.
+## creates a special "matrix" object that can cache its inverse
 makeCacheMatrix <- function(x = numeric()) {
         inv <- NULL
         get <- function() x
